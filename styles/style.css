@@ -106,6 +106,8 @@ main {
 .secondary-btn {
   background-color: #ffffff;
   color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
   padding: 20px 30px;
   border: 0;
   border-radius: 5px;
@@ -125,4 +127,35 @@ main {
     rgba(146, 164, 252, 0)
   );
   background-blend-mode: overlay;
+}
+/* footer starts */
+footer {
+  color: #f8f8f8;
+  background: #151414;
+  height: 577px;
+  padding: 130px 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+}
+footer h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+footer p {
+  margin-bottom: 24px;
+}
+.subscribe input {
+  margin: 16px 0;
+  padding: 20px;
+  background: #151414;
+  border-color: #f8f8f8;
+  border-radius: 10px;
+}
+.footer-icons {
+  width: 46px;
+  height: 46px;
+  display: inline;
 }
