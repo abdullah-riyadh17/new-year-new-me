@@ -61,6 +61,7 @@ main {
 }
 .section-summary li {
   display: flex;
+  color: #444343;
 }
 .icon img {
   width: 20px;
@@ -91,6 +92,7 @@ main {
     linear-gradient(to right, #f15b22, rgba(241, 91, 34, 0));
   background-blend-mode: overlay;
   border-radius: 8px;
+  margin-bottom: 130px;
 }
 .mindset-content {
   color: #ffffff;
@@ -107,4 +109,20 @@ main {
   padding: 20px 30px;
   border: 0;
   border-radius: 5px;
+}
+.extra {
+  text-align: center;
+}
+.founder-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 25px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(135, 97, 247),
+    rgba(146, 164, 252, 0)
+  );
+  background-blend-mode: overlay;
 }
